@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int y=5;
+    for(int dongu=1;dongu<=y;dongu++)
+    {
+        { 
+            for(int f=1;f<=dongu;f++)
+            printf("*");
+        }
+    printf("\n") ;
+        
+    }
+    
+    return 0;
+}
