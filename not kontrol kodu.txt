@@ -1,0 +1,22 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    float puan;
+    printf("lütfen bir not değeri girin:");
+    scanf("%f", &puan);
+    if (puan > 100)
+        printf("100 veya 100'den küçük bir not giriniz :)");
+    else if(puan < 0)
+        printf("lütfen pozitif sayı giriniz :)");
+    else if (puan >= 80)
+        printf("takdir belgesi");
+    else if(puan < 80 && puan >= 65)
+        printf("teşekkür belgesi");
+    else if(puan < 65 && puan >= 45)
+        printf("belge yok");
+    else
+        printf("sınıfta kaldın!!!!!!");
+    return 0;
+}
